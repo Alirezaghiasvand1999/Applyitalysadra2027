@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="google" content="notranslate">
-<title>Sadra Italy Apply Coaching OS — V4 Storage Safe</title>
+<title>Coaching Platform Apply Italy — V6</title>
 <style>
 :root{
   --bg:#06121d;--bg2:#0c1d2b;--panel:rgba(20,37,52,.76);--panel2:rgba(12,25,37,.72);
@@ -24,16 +24,60 @@ input,select,textarea{background:rgba(1,10,18,.68);border:1px solid var(--line);
 @media(max-width:1250px){.workspace{grid-template-columns:1fr}.side{display:grid;grid-template-columns:repeat(3,1fr)}.sideCard.span{grid-column:1/-1}.kpiGrid{grid-template-columns:repeat(3,1fr)}.topbar{grid-template-columns:1fr}.heroMetrics{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){.grid2,.grid3,.grid4,.split,.calendarWrap,.financeTop{grid-template-columns:1fr}.side{grid-template-columns:1fr}.formGrid{grid-template-columns:1fr 1fr}.fieldWide{grid-column:span 2}.tab{min-width:calc(50% - 4px)}.panel{padding:10px}.day{min-height:82px}.kpiGrid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.app{width:calc(100% - 14px)}.tab{min-width:100%}.formGrid{grid-template-columns:1fr}.fieldWide{grid-column:1}.kpiGrid{grid-template-columns:1fr}.heroMetrics{grid-template-columns:1fr}.task{grid-template-columns:1fr}.subtasks{grid-column:1}.tools{justify-content:flex-start}.topbar{padding:15px}}
+
+/* V6 Secure Session, Header, and Device-Aware UI Layer */
+.appLocked{display:none!important}
+.loginOverlay{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:24px;background:radial-gradient(900px 540px at 12% 8%,rgba(0,146,70,.16),transparent 58%),radial-gradient(880px 520px at 86% 18%,rgba(255,255,255,.09),transparent 56%),radial-gradient(820px 520px at 90% 84%,rgba(206,43,55,.16),transparent 60%),rgba(2,8,15,.90);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);direction:ltr;text-align:left}.loginOverlay.hidden{display:none!important}.loginCard{width:min(560px,96vw);border:1px solid rgba(149,211,255,.34);background:linear-gradient(145deg,rgba(20,38,55,.94),rgba(6,18,30,.90));border-radius:34px;box-shadow:0 44px 140px rgba(0,0,0,.62);padding:32px;position:relative;overflow:hidden}.loginCard:before{content:"";position:absolute;inset:-2px;background:linear-gradient(125deg,transparent,rgba(255,255,255,.10),transparent);pointer-events:none}.loginCard:after{content:"🇮🇹";position:absolute;right:24px;top:22px;font-size:32px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.35))}.loginBadge{display:inline-flex;gap:8px;align-items:center;border:1px solid rgba(103,216,255,.35);background:rgba(103,216,255,.10);color:#9ee9ff;border-radius:999px;padding:7px 11px;font-size:11px;font-weight:950;letter-spacing:.08em;text-transform:uppercase}.loginTitle{font-size:clamp(31px,6vw,46px);line-height:.98;margin:20px 0 10px;font-weight:950;letter-spacing:-1.4px;color:#f1fbff}.loginSub{margin:0 0 23px;color:#a9bfcd;line-height:1.65;font-size:14px;max-width:440px}.loginGrid{display:grid;gap:13px}.loginField label{display:block;color:#bdd0dd;font-size:11px;font-weight:950;margin:0 0 6px;letter-spacing:.05em;text-transform:uppercase}.loginField input{direction:ltr;text-align:left;background:rgba(1,10,18,.78);border:1px solid rgba(149,211,255,.25);color:#eaf7ff;border-radius:16px;padding:14px 15px;width:100%;outline:none;font-weight:800}.loginField input:focus{border-color:#67d8ff;box-shadow:0 0 0 4px rgba(103,216,255,.11)}.loginAction{margin-top:16px;width:100%;border:1px solid rgba(103,216,255,.56);background:linear-gradient(135deg,rgba(0,146,70,.28),rgba(255,255,255,.10),rgba(206,43,55,.22));color:#f5fcff;border-radius:17px;padding:14px 18px;font-weight:950;cursor:pointer}.loginAction:hover{transform:translateY(-1px);box-shadow:0 18px 46px rgba(103,216,255,.14)}.loginError{min-height:22px;margin-top:12px;color:#ffb7c4;font-size:12px;font-weight:850}.loginHint{margin-top:16px;border:1px solid rgba(255,255,255,.11);background:rgba(255,255,255,.037);border-radius:17px;padding:12px;color:#9fb8c9;font-size:12px;line-height:1.65}.loginMiniGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.loginMini{border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.035);border-radius:14px;padding:10px;font-size:11px;color:#bdd0dd}.syncBadge{display:inline-flex;gap:6px;align-items:center;border-radius:999px;padding:5px 9px;border:1px solid rgba(149,211,255,.2);font-size:11px}.syncBadge.ok{color:#c9ffe6;border-color:rgba(95,241,169,.36);background:rgba(95,241,169,.08)}.syncBadge.warn{color:#ffe9ad;border-color:rgba(255,209,102,.36);background:rgba(255,209,102,.08)}.syncBadge.bad{color:#ffd2dc;border-color:rgba(255,107,138,.36);background:rgba(255,107,138,.08)}
+.brandShell{position:relative;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.brandTitleRow{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap}.italyMark{width:58px;height:58px;border-radius:22px;border:1px solid rgba(255,255,255,.18);background:linear-gradient(90deg,#009246 0 33%,#fff 33% 66%,#ce2b37 66% 100%);box-shadow:0 18px 46px rgba(0,0,0,.25),0 0 0 7px rgba(255,255,255,.035);display:grid;place-items:center;font-size:25px;direction:ltr}.brandActions{display:flex;flex-direction:column;gap:10px;align-items:flex-start;min-width:260px}.sessionControls{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-start}.userChip{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(103,216,255,.28);background:rgba(103,216,255,.08);color:#dff8ff;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:950;direction:ltr}.deviceSwitch{display:grid;grid-template-columns:1fr 1fr;gap:7px;width:100%;direction:ltr}.deviceBtn{border:1px solid rgba(149,211,255,.22);background:rgba(255,255,255,.045);color:#cfe6f5;border-radius:16px;padding:10px 11px;font-weight:950;font-size:12px;display:flex;align-items:center;justify-content:center;gap:7px;transition:.16s}.deviceBtn:hover{transform:translateY(-1px);border-color:var(--accent);background:rgba(255,255,255,.085)}.deviceBtn.active{border-color:var(--accent);background:linear-gradient(135deg,var(--accent-soft),rgba(255,255,255,.08));box-shadow:0 10px 28px var(--accent-soft);color:#fff}.topbar .brand h1{direction:ltr;text-align:right}.topbar .brand p{direction:ltr;text-align:right;max-width:820px;margin-right:auto}.brand .eyebrow{direction:ltr;text-align:right}.quickGrid .danger,.sessionControls .danger{border-color:rgba(255,107,138,.42);color:#ffd7df}
+body.view-mobile .app{width:min(480px,calc(100% - 10px));margin:6px auto 22px}body.view-mobile .topbar{grid-template-columns:1fr;padding:14px;border-radius:24px;gap:12px}body.view-mobile .brandShell{grid-template-columns:1fr;gap:12px}body.view-mobile .brandTitleRow{justify-content:flex-start;direction:ltr}body.view-mobile .topbar .brand h1{text-align:left;font-size:clamp(27px,8vw,36px);line-height:1.02;margin:7px 0}body.view-mobile .topbar .brand p{text-align:left;font-size:12px;line-height:1.55;max-width:none}body.view-mobile .brand .eyebrow{text-align:left;font-size:9px;letter-spacing:.12em}body.view-mobile .italyMark{width:46px;height:46px;border-radius:18px;font-size:20px}body.view-mobile .brandActions{width:100%;min-width:0}body.view-mobile .sessionControls{justify-content:flex-start}body.view-mobile .heroMetrics{grid-template-columns:repeat(2,1fr);gap:7px}body.view-mobile .heroMetric{min-height:76px;padding:9px;border-radius:14px}body.view-mobile .heroMetric .label{font-size:8.5px;letter-spacing:.09em}body.view-mobile .heroMetric .value{font-size:16px;margin-top:6px}body.view-mobile .workspace{display:flex;flex-direction:column;gap:10px;margin-top:10px}body.view-mobile .main{order:1}body.view-mobile .side{order:2;display:grid;grid-template-columns:1fr;gap:8px}body.view-mobile .sideCard{border-radius:16px;padding:10px}body.view-mobile .quickGrid{grid-template-columns:1fr 1fr;gap:7px}body.view-mobile .quickGrid .btn{font-size:10.5px;padding:8px 7px;white-space:normal}body.view-mobile .tabs{flex-wrap:nowrap;overflow-x:auto;gap:6px;padding-bottom:7px;scroll-snap-type:x proximity}body.view-mobile .tab{min-width:132px;max-width:170px;flex:0 0 auto;font-size:11px;padding:8px 9px;border-radius:15px;scroll-snap-align:start}body.view-mobile .tab .close{width:16px;height:16px;font-size:10px}body.view-mobile .panel{min-height:auto;padding:10px;border-radius:18px}body.view-mobile .panelHeader{grid-template-columns:1fr;gap:8px}body.view-mobile .panelHeader h2{font-size:18px}body.view-mobile .panelHeader p{font-size:12px;line-height:1.6}body.view-mobile .grid2,body.view-mobile .grid3,body.view-mobile .grid4,body.view-mobile .split,body.view-mobile .calendarWrap,body.view-mobile .financeTop,body.view-mobile .kpiGrid{grid-template-columns:1fr}body.view-mobile .card{padding:11px;border-radius:16px}body.view-mobile .progressTile{grid-template-columns:54px 1fr;padding:10px}body.view-mobile .ring{width:52px;height:52px}.view-mobile .ring:after{width:35px;height:35px}body.view-mobile .task{grid-template-columns:1fr;gap:8px;padding:10px}body.view-mobile .subtasks{grid-column:1}body.view-mobile .tools{justify-content:flex-start}body.view-mobile .formGrid{grid-template-columns:1fr}body.view-mobile .fieldWide{grid-column:1}body.view-mobile .uniGrid,body.view-mobile .refGrid{grid-template-columns:1fr}body.view-mobile .uniCard{padding:11px}body.view-mobile .chance{grid-template-columns:58px 1fr;gap:9px}body.view-mobile .calGrid{gap:4px}body.view-mobile .calendarBox{padding:8px;border-radius:16px}body.view-mobile .calHeader{align-items:flex-start;gap:6px;flex-direction:column}body.view-mobile .day{min-height:66px;padding:5px;border-radius:11px}body.view-mobile .dayNum{font-size:11px}body.view-mobile .dayItems{gap:2px;margin-top:4px}body.view-mobile .dayItem{font-size:8.5px;padding:2px 4px;border-radius:7px}body.view-mobile .dayItems .dayItem:nth-child(n+3){display:none}body.view-mobile .recordTable{display:block;overflow-x:auto;white-space:nowrap}body.view-mobile .modal{width:96vw;padding:14px;border-radius:20px}.view-desktop .app{width:min(1780px,calc(100% - 34px))}
+@media(max-width:760px){body:not(.view-desktop) .app{width:min(480px,calc(100% - 10px))}body:not(.view-desktop) .topbar{grid-template-columns:1fr}}
+
 </style>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 </head>
 <body>
-<div class="app" id="app">
+<div id="loginOverlay" class="loginOverlay">
+  <div class="loginCard">
+    <span class="loginBadge">Secure Shared Console · Firebase Sync</span>
+    <h1 class="loginTitle">Coaching Platform Apply Italy</h1>
+    <p class="loginSub">Sign in to open the synchronized admission, IELTS, document, visa, finance and scholarship control platform.</p>
+    <form class="loginGrid" onsubmit="loginSubmit(event)">
+      <div class="loginField"><label>Username</label><input id="loginUser" autocomplete="username" placeholder="Sinaghiasvand" spellcheck="false"></div>
+      <div class="loginField"><label>Password</label><input id="loginPass" type="password" autocomplete="current-password" placeholder="••••••••"></div>
+      <button class="loginAction" type="submit">Enter Platform</button>
+      <div id="loginError" class="loginError"></div>
+    </form>
+    <div class="loginMiniGrid">
+      <div class="loginMini"><b>Coach</b><br>Full planning and review access.</div>
+      <div class="loginMini"><b>Student</b><br>Fast task checking and status updates.</div>
+    </div>
+    <div class="loginHint">Session is no longer permanent. Use Lock to force login again. Shared data syncs through Firebase and is mirrored locally for emergency backup.</div>
+  </div>
+</div>
+
+<div class="app appLocked" id="app">
   <section class="topbar">
     <div class="heroMetrics" id="heroMetrics"></div>
-    <div class="brand">
-      <div class="eyebrow">SADRA ITALY APPLY COACHING PLATFORM — FINAL V3</div>
-      <h1>سیستم جامع مربی‌گری اپلای ایتالیا برای صدرا</h1>
-      <p>داشبورد مرکزی، مسیر تحصیلی، IELTS، دانشگاه‌ها، مدارک، سفارت، تمکن مالی، بورسیه استانی، پاسپورت و نظام‌وظیفه با تقویم شمسی هوشمند، فرم‌های اختصاصی، تحلیل عقب‌افتادگی و ذخیره‌سازی محلی.</p>
+    <div class="brandShell">
+      <div class="brand">
+        <div class="eyebrow">ITALY ADMISSION CONTROL CENTER · FIREBASE SYNC · A.Y. 2027/2028</div>
+        <div class="brandTitleRow"><span class="italyMark">🇮🇹</span><h1>Coaching Platform Apply Italy</h1></div>
+        <p>Admission roadmap, IELTS, universities, documents, visa, finance, scholarships and passport workflows in one synchronized coaching cockpit.</p>
+      </div>
+      <div class="brandActions">
+        <div class="deviceSwitch" aria-label="View mode selector">
+          <button class="deviceBtn" id="desktopModeBtn" onclick="setViewMode('desktop')" title="Full laptop console"><span>💻</span><span>Laptop</span></button>
+          <button class="deviceBtn" id="mobileModeBtn" onclick="setViewMode('mobile')" title="Quick mobile checking mode"><span>📱</span><span>Mobile Quick</span></button>
+        </div>
+        <div class="sessionControls">
+          <span id="userChipTop" class="userChip">User</span>
+          <span id="syncStatusTop"></span>
+          <button class="btn small" onclick="forceSync()">Force Sync</button>
+          <button class="btn small danger" onclick="logout()">Lock</button>
+        </div>
+      </div>
     </div>
   </section>
   <section class="workspace">
@@ -45,6 +89,7 @@ input,select,textarea{background:rgba(1,10,18,.68);border:1px solid var(--line);
         <button class="btn" onclick="openProfileModal()">ویرایش پروفایل صدرا</button>
         <button class="btn" onclick="exportJSON()">Export JSON</button>
         <button class="btn" onclick="downloadICS()">Download ICS</button>
+        <button class="btn danger" onclick="logout()">Lock / Logout</button>
       </div></div>
       <div class="sideCard"><h3>هشدارهای فعال</h3><div id="sideAlerts"></div></div>
       <div class="sideCard"><h3>ساعت و تاریخ</h3><div id="clockBox"></div></div>
@@ -65,7 +110,64 @@ const DATA = JSON.parse(document.getElementById('seed-data').textContent);
 const STORE_KEY = 'sadra_apply_os_v3_final'; // Keep unchanged so existing V3/V4 browser data survives future deploys.
 const BACKUP_KEY = STORE_KEY + '_mirror_backup';
 const HISTORY_KEY = STORE_KEY + '_history_last5';
-const APP_VERSION = 'V4_STORAGE_SAFE_FINAL';
+const APP_VERSION = 'V6_DEVICE_AWARE_FIREBASE_SYNC_FINAL';
+
+const AUTH_KEY = 'sadra_apply_os_active_user_session';
+const CLIENT_ID_KEY = 'sadra_apply_os_client_id';
+const FIREBASE_STATE_PATH = 'sadra_apply_os_v5_sync/shared_state';
+const FIREBASE_AUDIT_PATH = 'sadra_apply_os_v5_sync/audit_log';
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBoccY8ZttlDVXYCgtpJ9KK1mkPtPVxcM0",
+  authDomain: "felizzano8-app.firebaseapp.com",
+  databaseURL: "https://felizzano8-app-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "felizzano8-app",
+  storageBucket: "felizzano8-app.firebasestorage.app",
+  messagingSenderId: "463993415530",
+  appId: "1:463993415530:web:3177be64c3e8c859562713",
+  measurementId: "G-XBNPL1SYEM"
+};
+const USERS = {
+  sinaghiasvand:{username:'Sinaghiasvand',displayName:'Sina Ghiasvand',role:'coach',password:'13781378'},
+  sadraghiasvand:{username:'sadraghiasvand',displayName:'Sadra Ghiasvand',role:'student',password:'13841384'}
+};
+let currentUser = null;
+let firebaseReady = false;
+let remoteRef = null;
+let auditRef = null;
+let applyingRemote = false;
+let syncTimer = null;
+let syncStatus = 'offline';
+let lastRemoteMeta = null;
+let lastSyncAt = '';
+let CLIENT_ID = localStorage.getItem(CLIENT_ID_KEY);
+if(!CLIENT_ID){CLIENT_ID='client-'+Math.random().toString(36).slice(2)+'-'+Date.now().toString(36);localStorage.setItem(CLIENT_ID_KEY,CLIENT_ID)}
+
+const VIEW_KEY = 'sadra_apply_os_view_mode';
+let savedViewMode = localStorage.getItem(VIEW_KEY);
+let viewMode = savedViewMode || (window.matchMedia && window.matchMedia('(max-width: 760px)').matches ? 'mobile' : 'desktop');
+function applyViewMode(){
+  document.body.classList.toggle('view-mobile', viewMode === 'mobile');
+  document.body.classList.toggle('view-desktop', viewMode === 'desktop');
+  const d=document.getElementById('desktopModeBtn'), m=document.getElementById('mobileModeBtn');
+  if(d) d.classList.toggle('active', viewMode === 'desktop');
+  if(m) m.classList.toggle('active', viewMode === 'mobile');
+}
+function setViewMode(mode){
+  viewMode = mode === 'mobile' ? 'mobile' : 'desktop';
+  localStorage.setItem(VIEW_KEY, viewMode);
+  applyViewMode();
+  renderAll();
+  toast(viewMode === 'mobile' ? 'Mobile Quick mode فعال شد.' : 'Laptop full console فعال شد.');
+}
+function renderSessionControls(){
+  const userChip=document.getElementById('userChipTop');
+  const syncTop=document.getElementById('syncStatusTop');
+  if(userChip) userChip.textContent=currentUser?(`${currentUser.displayName} · ${currentUser.role}`):'Locked';
+  if(syncTop) syncTop.innerHTML=syncStatusBadge();
+  applyViewMode();
+}
+
+
 const DAY = 86400000;
 let activeTab = 'dashboard';
 let selectedCal = null;
@@ -104,15 +206,17 @@ function mergeState(seed,saved){
   s.sources = saved.sources || seed.sources;
   return s;
 }
-function persistState(){
+function persistState(options={}){
   try{
-    state.__meta = {appVersion:APP_VERSION,lastSavedAt:new Date().toISOString(),storageKey:STORE_KEY};
+    if(!options.keepMeta){
+      state.__meta = {appVersion:APP_VERSION,lastSavedAt:new Date().toISOString(),storageKey:STORE_KEY,lastSavedBy:currentUser?currentUser.username:'local'};
+    }
     const payload = JSON.stringify(state);
     localStorage.setItem(STORE_KEY, payload);
     localStorage.setItem(BACKUP_KEY, payload);
     let hist=[];
     try{hist=JSON.parse(localStorage.getItem(HISTORY_KEY)||'[]')}catch(e){hist=[]}
-    hist.unshift({at:state.__meta.lastSavedAt,payload});
+    hist.unshift({at:(state.__meta&&state.__meta.lastSavedAt)||new Date().toISOString(),by:currentUser?currentUser.username:'local',payload});
     hist=hist.slice(0,5);
     localStorage.setItem(HISTORY_KEY, JSON.stringify(hist));
     return true;
@@ -122,7 +226,122 @@ function persistState(){
     return false;
   }
 }
-function save(){persistState();renderAll();}
+function save(reason='edit'){persistState();syncRemoteSoon(reason);renderAll();}
+
+function loadSavedUser(){
+  try{localStorage.removeItem('sadra_apply_os_active_user');}catch(e){}
+  try{const u=JSON.parse(sessionStorage.getItem(AUTH_KEY)||'null');if(u&&USERS[String(u.username||'').toLowerCase()])return u;}catch(e){}
+  return null;
+}
+function showLogin(message=''){
+  const overlay=document.getElementById('loginOverlay');
+  const app=document.getElementById('app');
+  if(app) app.classList.add('appLocked');
+  if(overlay) overlay.classList.remove('hidden');
+  const err=document.getElementById('loginError');
+  if(err) err.textContent=message;
+}
+function hideLogin(){
+  const overlay=document.getElementById('loginOverlay');
+  const app=document.getElementById('app');
+  if(app) app.classList.remove('appLocked');
+  if(overlay) overlay.classList.add('hidden');
+}
+function loginSubmit(e){
+  e.preventDefault();
+  const u=String(document.getElementById('loginUser').value||'').trim().toLowerCase();
+  const p=String(document.getElementById('loginPass').value||'').trim();
+  const rec=USERS[u];
+  if(!rec||rec.password!==p){showLogin('Invalid username or password.');return;}
+  currentUser={username:rec.username,displayName:rec.displayName,role:rec.role,loginAt:new Date().toISOString()};
+  sessionStorage.setItem(AUTH_KEY,JSON.stringify(currentUser));
+  enterApp();
+}
+function logout(){
+  sessionStorage.removeItem(AUTH_KEY);
+  try{localStorage.removeItem('sadra_apply_os_active_user');}catch(e){}
+  currentUser=null;
+  syncStatus='offline';
+  showLogin('');
+}
+function enterApp(){
+  hideLogin();
+  initFirebaseSync();
+  renderAll();
+}
+function initFirebaseSync(){
+  if(firebaseReady) return;
+  syncStatus='connecting';
+  try{
+    if(!window.firebase){syncStatus='local_only';toast('Firebase script لود نشد؛ فعلاً فقط localStorage فعال است.');return;}
+    if(!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+    remoteRef=firebase.database().ref(FIREBASE_STATE_PATH);
+    auditRef=firebase.database().ref(FIREBASE_AUDIT_PATH);
+    firebaseReady=true;
+    remoteRef.on('value',snap=>{
+      const payload=snap.val();
+      if(!payload||!payload.state){
+        syncStatus='online';
+        syncRemoteNow('initial_remote_seed');
+        return;
+      }
+      const meta=payload.meta||{};
+      lastRemoteMeta=meta;
+      lastSyncAt=meta.updatedAt||'';
+      syncStatus='online';
+      if(meta.clientId===CLIENT_ID) { renderSide(); return; }
+      applyingRemote=true;
+      state=mergeState(deepClone(DATA),payload.state);
+      persistState({keepMeta:true});
+      applyingRemote=false;
+      renderAll();
+      if(meta.updatedBy) toast('تغییرات آنلاین از طرف '+meta.updatedBy+' دریافت شد.');
+    },err=>{
+      console.error('Firebase listener error',err);
+      syncStatus='error';
+      renderSide();
+      toast('خطای اتصال Firebase. برنامه به حالت local backup برگشت.');
+    });
+  }catch(e){
+    console.error('Firebase init failed',e);
+    syncStatus='error';
+    toast('Firebase آماده نشد؛ سایت باز می‌ماند ولی Sync مشترک فعال نیست.');
+  }
+}
+function syncRemoteSoon(reason='edit'){
+  if(applyingRemote) return;
+  if(!firebaseReady||!remoteRef||!currentUser){return;}
+  clearTimeout(syncTimer);
+  syncTimer=setTimeout(()=>syncRemoteNow(reason),450);
+}
+function syncRemoteNow(reason='manual'){
+  if(!firebaseReady||!remoteRef||!currentUser){persistState();renderSide();toast('Firebase فعال نیست؛ فقط بکاپ محلی ذخیره شد.');return;}
+  const meta={appVersion:APP_VERSION,updatedAt:new Date().toISOString(),updatedBy:currentUser.username,displayName:currentUser.displayName,role:currentUser.role,clientId:CLIENT_ID,reason};
+  state.__meta=Object.assign({},state.__meta||{}, {appVersion:APP_VERSION,lastSavedAt:meta.updatedAt,lastSavedBy:currentUser.username,storageKey:STORE_KEY});
+  persistState({keepMeta:true});
+  syncStatus='syncing';
+  renderSide();
+  remoteRef.set({meta,state}).then(()=>{
+    lastRemoteMeta=meta;lastSyncAt=meta.updatedAt;syncStatus='online';renderSide();
+    try{auditRef.push({at:meta.updatedAt,by:meta.updatedBy,role:meta.role,reason,clientId:CLIENT_ID})}catch(e){}
+  }).catch(err=>{
+    console.error('Remote sync failed',err);
+    syncStatus='error';renderSide();toast('ذخیره روی Firebase ناموفق بود؛ نسخه محلی محفوظ است.');
+  });
+}
+function forceSync(){syncRemoteNow('manual_force_sync')}
+function syncStatusBadge(){
+  const map={online:['ok','Online sync'],syncing:['warn','Syncing...'],connecting:['warn','Connecting...'],local_only:['warn','Local only'],offline:['bad','Offline'],error:['bad','Sync error']};
+  const m=map[syncStatus]||map.offline;
+  return `<span class="syncBadge ${m[0]}">${m[1]}</span>`;
+}
+function bootApp(){
+  applyViewMode();
+  currentUser=loadSavedUser();
+  if(currentUser){enterApp();}
+  else{showLogin('');}
+}
+
 window.addEventListener('beforeunload',()=>{try{persistState()}catch(e){}});
 function toast(msg){const t=document.getElementById('toast');const d=document.createElement('div');d.textContent=msg;t.appendChild(d);setTimeout(()=>d.remove(),4200)}
 function todayISO(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
@@ -179,7 +398,7 @@ function statusOptions(type,current){const arr=(state.taskTemplates[type]||state
 function setTheme(tab){const t=tabBy(tab);document.documentElement.style.setProperty('--accent',t.accent);document.documentElement.style.setProperty('--accent-soft',hexToRgba(t.accent,.14));}
 function hexToRgba(hex,a){let h=hex.replace('#','');if(h.length===3)h=h.split('').map(x=>x+x).join('');const n=parseInt(h,16);return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`}
 
-function renderAll(){setTheme(activeTab);renderTabs();renderHero();renderSide();renderPanel();}
+function renderAll(){setTheme(activeTab);renderTabs();renderHero();renderSide();renderPanel();renderSessionControls();}
 function renderTabs(){
   const root=document.getElementById('tabs');
   root.innerHTML=state.tabs.filter(t=>!state.closedTabs.includes(t.id)).map(t=>`<button class="tab ${t.id===activeTab?'active':''}" style="--accent:${t.accent}" onclick="selectTab('${t.id}')"><span>${t.icon} ${t.label}</span><span class="close" onclick="event.stopPropagation();closeTab('${t.id}')">×</span></button>`).join('')+`<button class="tab tabPlus" onclick="toggleClosedTabs(event)">+</button><div class="closedTabs" id="closedMenu"></div>`;
@@ -202,6 +421,7 @@ function renderSide(){
  document.getElementById('sideAlerts').innerHTML=late.length?late.slice(0,5).map(t=>`<div class="pill bad" style="margin:3px 0">${esc(t.title)} · ${Math.abs(diffDays(t.end,todayISO()))} روز عقب</div>`).join(''):'<div class="notice">فعلاً هشدار فوری وجود ندارد.</div>';
  const now=new Date();
  document.getElementById('clockBox').innerHTML=`<div class="kval mono ltr">${now.toLocaleTimeString('it-IT',{timeZone:'Europe/Rome'})}</div><div class="muted">Italy / Rome</div><hr style="border-color:var(--line);border-width:0 0 1px;margin:10px 0"><div class="kval mono ltr">${now.toLocaleTimeString('fa-IR',{timeZone:'Asia/Tehran'})}</div><div class="muted">Iran / Tehran</div><div style="margin-top:9px" class="pill">امروز شمسی: ${jStr(todayISO())}</div>`;
+ renderSessionControls();
  document.getElementById('closedTabList').innerHTML=state.closedTabs.length?state.closedTabs.map(id=>{const t=tabBy(id);return `<button class="btn small" onclick="restoreTab('${id}')">${t.icon} ${t.label}</button>`}).join(''):'<span class="muted">همه تب‌ها باز هستند.</span>';
 }
 function panelHeader(tab,title,desc,actions=''){
@@ -401,7 +621,8 @@ function renderDayDetails(iso){const arr=calendarItems(iso);const week=weekItems
 function weekItems(iso){const d=isoDate(iso);const arr=[];for(let i=0;i<7;i++){const x=new Date(d);x.setDate(d.getDate()+i);const is=`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;arr.push(...calendarItems(is))}return [...new Map(arr.map(x=>[x.id,x])).values()]}
 
 function renderReferences(){return panelHeader('references','References و لینک‌ها','منابع رسمی، لینک‌های کاربردی، فایل‌ها، کانال‌ها و منابع هر تب. رنگ این بخش مستقل از تسک‌هاست.',`<button class="btn primary" onclick="openReferenceModal()">+ لینک / فایل جدید</button>`)+`<div class="refGrid">${state.sources.map(s=>`<div class="refCard"><div class="refKind">${s.kind} · ${tabBy(s.tab)?.label||s.tab}</div><h3>${esc(s.title)}</h3><p class="muted">${esc(s.note||'')}</p><div class="tools"><a class="btn small" href="${esc(s.url)}" target="_blank" rel="noopener">Open</a><button class="btn small" onclick="openReferenceModal('${s.id}')">Edit</button></div></div>`).join('')}</div>`}
-function renderSettings(){return panelHeader('settings','تنظیمات و بکاپ','همه داده‌ها داخل مرورگر ذخیره می‌شوند. برای Netlify فایل را index.html کن. برای جابه‌جایی بین دستگاه‌ها Export/Import لازم است.',`<button class="btn primary" onclick="openProfileModal()">ویرایش پروفایل</button>`)+`<div class="grid2"><div class="card"><h3>بکاپ</h3><div class="notice" style="margin-bottom:10px"><b>Storage Safe Mode فعال است.</b><br>داده‌ها در کلید اصلی، بکاپ آینه‌ای و ۵ snapshot آخر localStorage ذخیره می‌شوند. Export JSON همچنان بکاپ قطعی و قابل انتقال است.</div><div class="sectionRow"><button class="btn primary" onclick="exportJSON()">Export JSON</button><button class="btn" onclick="document.getElementById('fileInput').click()">Import JSON</button><button class="btn" onclick="downloadICS()">Download ICS</button><button class="btn danger" onclick="resetAll()">Reset</button></div></div><div class="card"><h3>داده‌های متغیر مهم</h3><div class="notice">واحدهای پاس‌شده، معدل، IELTS target، نرخ یورو، هدف تمکن و تاریخ‌ها همگی از فرم‌های اختصاصی قابل تغییر هستند و دیگر به‌عنوان تسک ثابت تعریف نشده‌اند.</div></div></div>`}
+function renderSettings(){return panelHeader('settings','تنظیمات و بکاپ','همه داده‌ها داخل مرورگر ذخیره می‌شوند. برای Netlify فایل را index.html کن. برای جابه‌جایی بین دستگاه‌ها Export/Import لازم است.',`<button class="btn primary" onclick="openProfileModal()">ویرایش پروفایل</button>`)+`<div class="grid2"><div class="card"><h3>بکاپ</h3><div class="notice" style="margin-bottom:10px"><b>Storage Safe Mode فعال است.</b><br>داده‌ها در کلید اصلی، بکاپ آینه‌ای و ۵ snapshot آخر localStorage ذخیره می‌شوند. Export JSON همچنان بکاپ قطعی و قابل انتقال است.</div><div class="sectionRow"><button class="btn primary" onclick="exportJSON()">Export JSON</button><button class="btn" onclick="document.getElementById('fileInput').click()">Import JSON</button><button class="btn" onclick="downloadICS()">Download ICS</button>
+        <button class="btn danger" onclick="logout()">Lock / Logout</button><button class="btn danger" onclick="resetAll()">Reset</button></div></div><div class="card"><h3>داده‌های متغیر مهم</h3><div class="notice">واحدهای پاس‌شده، معدل، IELTS target، نرخ یورو، هدف تمکن و تاریخ‌ها همگی از فرم‌های اختصاصی قابل تغییر هستند و دیگر به‌عنوان تسک ثابت تعریف نشده‌اند.</div></div></div>`}
 
 // Modals and forms
 function openModal(html){document.getElementById('modal').innerHTML=html;document.getElementById('modalBackdrop').classList.add('open')}
@@ -431,10 +652,10 @@ function exportJSON(){const blob=new Blob([JSON.stringify(state,null,2)],{type:'
 function importJSONFile(e){const file=e.target.files[0];if(!file)return;const fr=new FileReader();fr.onload=()=>{try{state=mergeState(deepClone(DATA),JSON.parse(fr.result));save();toast('Backup imported.')}catch(err){alert('JSON نامعتبر است.')}};fr.readAsText(file)}
 function downloadICS(){let ics='BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Sadra Apply OS//V3//FA\n';state.tasks.forEach(t=>{if(taskProgress(t)>=100)return;ics+=`BEGIN:VEVENT\nUID:${t.id}@sadra-apply-os\nDTSTAMP:${todayISO().replaceAll('-','')}T080000Z\nDTSTART;VALUE=DATE:${t.start.replaceAll('-','')}\nDTEND;VALUE=DATE:${addDays(t.end,1).replaceAll('-','')}\nSUMMARY:${t.title.replace(/\n/g,' ')}\nDESCRIPTION:${(t.note||'').replace(/\n/g,' ')}\nEND:VEVENT\n`});ics+='END:VCALENDAR';downloadBlob(new Blob([ics],{type:'text/calendar'}),'sadra_apply_roadmap.ics')}
 function downloadBlob(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();URL.revokeObjectURL(a.href)}
-function resetAll(){if(confirm('همه داده‌های ذخیره‌شده پاک شود؟')){localStorage.removeItem(STORE_KEY);state=deepClone(DATA);activeTab='dashboard';renderAll()}}
+function resetAll(){if(confirm('همه داده‌های مشترک Reset شود؟ این کار روی Firebase هم اعمال می‌شود.')){localStorage.removeItem(STORE_KEY);localStorage.removeItem(BACKUP_KEY);state=deepClone(DATA);activeTab='dashboard';persistState();syncRemoteNow('reset_shared_data');renderAll()}}
 
-setInterval(()=>renderSide(),1000);
-renderAll();
+setInterval(()=>{if(currentUser)renderSide()},1000);
+bootApp();
 </script>
 </body>
 </html>
